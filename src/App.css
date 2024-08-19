@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+span {
+  color: darkorange;
+  font-weight: 900;
+}
+
+.App {
+  width: 100%;
+  max-width: 1080px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007acc;
+}
+
+.markdown-editor {
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.editor-toolbar button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.editor-toolbar button:hover {
+  background-color: #005f99;
+}
+
+.editor-container {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.editor-textarea {
+  width: 50%;
+  height: 400px;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-right: 1px solid #ccc;
+  outline: none;
+  resize: none;
+}
+
+.editor-preview {
+  width: 50%;
+  padding: 15px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.editor-preview h1,
+.editor-preview h2,
+.editor-preview h3 {
+  color: #007acc;
+}
+
+.editor-preview code {
+  background-color: #eee;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+.editor-preview pre {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.editor-preview blockquote {
+  border-left: 5px solid #007acc;
+  padding-left: 15px;
+  color: #555;
+  font-style: italic;
+}
+
+.editor-preview ul,
+.editor-preview ol {
+  padding-left: 20px;
+}
+
+.editor-preview a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.editor-preview a:hover {
+  text-decoration: underline;
+}

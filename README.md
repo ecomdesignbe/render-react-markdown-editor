@@ -1,9 +1,8 @@
-#Project : Markdown reader
+# React + Vite
 
-In this project, we will have a textarea input where we can write markdown and next to it see the result in html.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Bonus : Create some buttons heading 1, heading 2, bold, italic, horizontal line, etc. to insert automatically the markdown syntax in the textarea to facilitate de writing of the markdown.
+Currently, two official plugins are available:
 
-In this project, you will be led to master :
-- the librarie marked
-- the insertion of html in a react component (dangerouslySetInnerHtml)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
